@@ -1,0 +1,165 @@
+/* colores{ color:#C1F7DC; color:#C3D2D5; color:#BDA0BC ; color: #A2708A; color: #824670;
+} */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.home .fondo{
+    width: 100%;
+}
+.home .contenedor {
+    width: 100%;
+    position: relative;
+    background-image: url(../img/FONDO2.jpg);
+    max-width: 1500px;
+    height: 500px;
+    max-height: 1500px;
+    background-position: center;
+    background-size: 160% 500px;
+    background-repeat: no-repeat;
+}
+.home .contenedor div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 125px;
+    left: 0px;
+}
+
+.home .texto-encima{
+font-weight: bold;
+font-size: xxx-large;
+max-width: 350px;
+text-decoration: underline;
+color: white;
+margin-top: 30px;
+/* background-color: #625c5eab; */
+text-align: center;
+}
+
+.home .texto{
+    font-size: 30px;
+    color: white;
+    margin: 0px 15px ;
+    text-align: start;
+}
+
+img.logo{
+width: 50px;
+height: 50px;
+}
+.carta .img-carta{
+    width: 200px;
+    height: 170px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.carta .contenedor-carta{
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.carta .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 350px;
+}
+.carta h2{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 10px;
+    text-decoration-line: underline;
+}
+.carta button{
+    display: flex;
+    justify-content: center;
+}
+.carta .lineas{
+    border-bottom: 1px solid rgba(122, 120, 120, 0.699);
+}
+
+footer {
+    /* background-color: #d6651fd1; */
+    background-color: rgb(129, 114, 114);
+    margin: 0px auto 0;
+    width: 100%;
+    color: white;
+    max-width: 1550px;
+}
+
+footer section {
+    padding-top: 10px;
+
+}
+footer section p {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+
+}
+footer section a {
+    text-align: center;
+    font-size: 20px;
+    width: auto;
+}
+footer section p i {
+    padding: 0 10px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+footer section article{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+footer .contenedor-footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin-top: 30px;
+}
+/* footer .contenedor-footer{
+    margin-top: 5px;
+    width: 160px;
+} */
+footer .contenedor-footer article a, footer .contenedor_2 article a{
+    color: black;
+}
+footer .contenedor-footer article a:hover, footer .contenedor_2 article a:hover{
+    color: honeydew;
+    transition: all 0.6s;
+}
+footer .contenedor_2{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+}
+footer section:last-child {
+    font-weight: 600;
+    margin: 0 30px;
+}
+footer .copyright {
+    font-weight: 100;
+    padding: 20px 0;
+    display: flex;
+    justify-content: start;
+}
+
+ ul .listacomidas li{
+    display: flex;
+    flex-wrap: wrap;
+} 
+.contacto .contacto2{
+    width: 60%;
+    margin: 30px;
+}
