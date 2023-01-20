@@ -1,14 +1,21 @@
-/* colores{ color:#C1F7DC; color:#C3D2D5; color:#BDA0BC ; color: #A2708A; color: #824670;
-} */
-
 *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
 
+body{
+    margin:0 auto;
+}
+
+main{
+    min-height: 61vh;
+
+}
+
 .home .fondo{
     width: 100%;
+    margin:0 auto;
 }
 .home .contenedor {
     width: 100%;
@@ -92,9 +99,8 @@ footer {
     /* background-color: #d6651fd1; */
     background-color: rgb(129, 114, 114);
     margin: 0px auto 0;
-    width: 100%;
+    width: 98%;
     color: white;
-    max-width: 1550px;
 }
 
 footer section {
@@ -128,10 +134,6 @@ footer .contenedor-footer{
     justify-content: center;
     margin-top: 30px;
 }
-/* footer .contenedor-footer{
-    margin-top: 5px;
-    width: 160px;
-} */
 footer .contenedor-footer article a, footer .contenedor_2 article a{
     color: black;
 }
@@ -162,4 +164,9 @@ footer .copyright {
 .contacto .contacto2{
     width: 60%;
     margin: 30px;
+}
+
+@media (min-width:769px) {
+    footer{
+    }
 }
