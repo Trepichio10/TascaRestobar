@@ -18,17 +18,18 @@ main{
     width: 100%;
     margin:0 auto;
 }
+
 .home .contenedor {
     width: 100%;
     position: relative;
     background-image: url(../img/FONDO2.jpg);
     max-width: 1500px;
-    height: 500px;
+    height: 90vh;
     max-height: 1500px;
     background-position: center;
-    background-size: 160% 500px;
     background-repeat: no-repeat;
 }
+
 .home .contenedor div {
     position: absolute;
     width: 100%;
